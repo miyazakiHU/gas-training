@@ -52,3 +52,25 @@
 
 ## 回答例
 回答例はsample_answer.gsを参照ください。
+
+## 参考：GAS実行時に表示される権限承認の対応方法
+<table style="border-collapse: collapse;
+              margin: 0;
+              padding: 0;">
+  <tr>
+    <!-- 左セル：テキスト。valign="top" で必ず上詰め -->
+    <td valign="top" style="padding: 0 16px 0 0; line-height: 1.5;">
+      1. スクリプトを実行すると、権限承認のダイアログが表示されるため、「詳細」をクリック<br>
+      2. 「安全ではないページに移動」をクリック<br>
+      3. 「続行」をクリックして権限を承認
+    </td>
+    <!-- 右セル：縦に並べた3枚の画像。valign="top" で上詰め -->
+    <td valign="top" style="padding: 0;">
+      <img src="../img/auth01.png" alt="画像1" width="200" style="display: block; margin: 0 0 8px 0;">
+      <img src="../img/auth02.png" alt="画像2" width="200" style="display: block; margin: 0 0 8px 0;">
+      <img src="../img/auth03.png" alt="画像3" width="200" style="display: block; margin: 0;">
+    </td>
+  </tr>
+</table>
+
+
