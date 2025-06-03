@@ -31,7 +31,7 @@
     3. `main.gs` にスクリプトを記述
     4. メニューから「サービス」→「スプレッドシートAPI」などを必要に応じて有効化
     5. `ファイル` → `プロジェクトのプロパティ` でスプレッドシートIDなどの変数を管理
-    6. `実行` ボタンでスクリプトを実行し、権限を承認
+    6. `実行` ボタンでスクリプトを実行し、権限を承認（注1）
 2. **空欄行の削除**  
 　B列（氏名）が空白の行をすべて削除してください。
 
@@ -53,24 +53,56 @@
 ## 回答例
 回答例はsample_answer.gsを参照ください。
 
-## 参考：GAS実行時に表示される権限承認の対応方法
-<table style="border-collapse: collapse;
-              margin: 0;
-              padding: 0;">
+## 注1：GAS実行時に表示される権限承認の対応方法
+<table style="border-collapse: collapse; margin: 0; padding: 0;">
+  <!-- 1行目 -->
   <tr>
-    <!-- 左セル：テキスト。valign="top" で必ず上詰め -->
-    <td valign="top" style="padding: 0 16px 0 0; line-height: 1.5;">
-      1. スクリプトを実行すると、権限承認のダイアログが表示されるため、「詳細」をクリック<br>
-      2. 「安全ではないページに移動」をクリック<br>
+    <!-- 左セル：ステップ①の説明 -->
+    <td style="vertical-align: top; padding: 0 16px 0 0; margin: 0; line-height: 1.5;">
+      1. スクリプトを実行すると、権限承認のダイアログが表示されるため、「詳細」をクリック
+    </td>
+    <!-- 右セル：画像1 -->
+    <td style="vertical-align: top; padding: 0; margin: 0;">
+      <img src="../img/auth01.png"
+           alt="権限承認ダイアログ（ステップ1）"
+           width="200"
+           style="display: block; margin: 0; padding: 0;">
+    </td>
+  </tr>
+
+  <!-- 2行目 -->
+  <tr>
+    <!-- 左セル：ステップ②の説明 -->
+    <td style="vertical-align: top; padding: 0 16px 0 0; margin: 0; line-height: 1.5;">
+      2. 「安全ではないページに移動」をクリック
+    </td>
+    <!-- 右セル：画像2 -->
+    <td style="vertical-align: top; padding: 0; margin: 0;">
+      <img src="../img/auth02.png"
+           alt="権限承認ダイアログ（ステップ2）"
+           width="200"
+           style="display: block; margin: 0; padding: 0;">
+    </td>
+  </tr>
+
+  <!-- 3行目 -->
+  <tr>
+    <!-- 左セル：ステップ③の説明 -->
+    <td style="vertical-align: top; padding: 0 16px 0 0; margin: 0; line-height: 1.5;">
       3. 「続行」をクリックして権限を承認
     </td>
-    <!-- 右セル：縦に並べた3枚の画像。valign="top" で上詰め -->
-    <td valign="top" style="padding: 0;">
-      <img src="../img/auth01.png" alt="画像1" width="200" style="display: block; margin: 0 0 8px 0;">
-      <img src="../img/auth02.png" alt="画像2" width="200" style="display: block; margin: 0 0 8px 0;">
-      <img src="../img/auth03.png" alt="画像3" width="200" style="display: block; margin: 0;">
+    <!-- 右セル：画像3 -->
+    <td style="vertical-align: top; padding: 0; margin: 0;">
+      <img src="../img/auth03.png"
+           alt="権限承認ダイアログ（ステップ3）"
+           width="200"
+           style="display: block; margin: 0; padding: 0;">
     </td>
   </tr>
 </table>
+
+
+
+
 
 
