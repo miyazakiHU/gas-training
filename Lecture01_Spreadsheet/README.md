@@ -63,7 +63,7 @@
     </td>
     <!-- 右セル：画像1 -->
     <td style="vertical-align: top; padding: 0; margin: 0;">
-      <img src="../img/auth01.png"
+      <img src="./img/auth01.png"
            alt="権限承認ダイアログ（ステップ1）"
            width="200"
            style="display: block; margin: 0; padding: 0;">
@@ -78,7 +78,7 @@
     </td>
     <!-- 右セル：画像2 -->
     <td style="vertical-align: top; padding: 0; margin: 0;">
-      <img src="../img/auth02.png"
+      <img src="./img/auth02.png"
            alt="権限承認ダイアログ（ステップ2）"
            width="200"
            style="display: block; margin: 0; padding: 0;">
@@ -93,7 +93,7 @@
     </td>
     <!-- 右セル：画像3 -->
     <td style="vertical-align: top; padding: 0; margin: 0;">
-      <img src="../img/auth03.png"
+      <img src="./img/auth03.png"
            alt="権限承認ダイアログ（ステップ3）"
            width="200"
            style="display: block; margin: 0; padding: 0;">
