@@ -1,2 +1,1 @@
-# gas-training
-GASの研修用
+# GAS研修用資料
